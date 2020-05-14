@@ -1,5 +1,8 @@
 # CakePHP バージョン2.10.20でやっている。データベースはsample2であり、これは、userとpostsテーブルだけしか存在しない。ただし、postsテーブルは値が入らなかったので、何も入っていない。そのため、結果には値が表示されない。ただ、認証は動くところまではいったのだが、それ以降は進んでいない。承認が終わっていない。理由はworkbenchのsample2にアクセスできなくなったからだ。
 # sample2 Taskに値を入れた。エラーの原因は文字コードだった。英語にしたら動いた。
+// 認証まで終わった。認証とブログチュートリアルができるプログラムである。
+//ルーティングも作動しているので、場所を指定すれば、認証場所に飛ぶ、
+//users/addで登録場所に飛ぶ。そこで、パスワードとユーザーを設定するといい
 
 [![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
 [![License](https://poser.pugx.org/cakephp/cakephp/license.svg)](https://packagist.org/packages/cakephp/cakephp)

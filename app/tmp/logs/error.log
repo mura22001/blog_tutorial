@@ -1,0 +1,408 @@
+2020-05-11 16:37:07 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:38:07 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:40:07 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:41:53 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:50:16 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:53:04 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:56:06 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3686): Model->setSource('posts')
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#5 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#6 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\Controller\PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2020-05-11 16:58:18 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 16:58:42 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 16:58:54 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 16:58:55 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 17:06:57 Error: [MissingViewException] View file "Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\view.ctp',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/view/1
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-11 17:06:58 Error: [MissingViewException] View file "Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\view.ctp',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/view/1
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-11 17:16:00 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/add/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 17:18:17 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/add/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-11 17:18:51 Error: [MissingViewException] View file "Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\add.ctp',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/add/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-11 17:18:58 Error: [MissingViewException] View file "Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\add.ctp',
+)
+Request URL: /reader_m/0511/cakephp-2.10.20/posts/add/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0511\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-13 11:10:58 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/app/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-05-13 11:12:58 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/User
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-13 11:13:05 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-13 11:13:24 Error: Fatal Error (1): Call to a member function allow() on null in [C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\Controller\UsersController.php, line 9]
+2020-05-13 11:13:24 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Apache24\\htd...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Apache24\\htd...', 9, Array)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Apache24\\htd...', 9, Array)
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-05-13 11:17:45 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/add
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(1132): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#5 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\Controller\UsersController.php(43): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-13 11:21:22 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/add
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('INSERT INTO `sa...', Array)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Datasource\DboSource.php(1132): DboSource->execute('INSERT INTO `sa...')
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#5 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\Controller\UsersController.php(43): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2020-05-13 11:34:00 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Users
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-13 11:34:18 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Pages/index
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-05-13 11:34:23 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Pages/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-05-13 11:35:28 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Users
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-13 11:48:33 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/logout/
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-13 11:56:31 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/logout
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-05-13 14:00:08 Error: [NotFoundException] Invalid user
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-13 14:00:34 Error: [NotFoundException] Invalid user
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-13 14:00:50 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/delete
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\Controller\UsersController.php(76): CakeRequest->allowMethod('post')
+#1 [internal function]: UsersController->delete()
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-05-13 15:24:17 Error: [MissingViewException] View file "Users\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\view.ctp',
+)
+Request URL: /reader_m/0513/cakephp-2.10.20/Users/view/1
+Stack Trace:
+#0 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\Apache24\htdocs\reader_m\0513\cakephp-2.10.20\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
